@@ -87,32 +87,55 @@ export const faqs = [
 export const cards = [
   {
     title: "APP DEVELOPMENT",
-    icon: "./assets/card-1.svg",
+    icon: "/card-1.svg",
     text: "Some quick example text to build on the card title and make up the bulk of the card's content.",
   },
   {
     title: "WEBSITE DEVELOPMENT",
-    icon: "../assets/card-2.svg",
+    icon: "/card-2.svg",
     text: "Some quick example text to build on the card title and make up the bulk of the card's content.",
   },
   {
     title: "DIGITAL MARKETING",
-    icon: "../assets/card-3.svg",
+    icon: "/card-3.svg",
     text: "Some quick example text to build on the card title and make up the bulk of the card's content.",
   },
   {
     title: "SEO & CONTENT WRITING",
-    icon: "../assets/card-4.svg",
+    icon: "/card-4.svg",
     text: "Some quick example text to build on the card title and make up the bulk of the card's content.",
   },
   {
     title: "UI/UX DESIGN",
-    icon: "../assets/card-5.svg",
+    icon: "/card-5.svg",
     text: "Some quick example text to build on the card title and make up the bulk of the card's content.",
   },
   {
     title: "GRAPHIC DESIGNING",
-    icon: "../assets/card-6.svg",
+    icon: "/card-6.svg",
     text: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+  },
+];
+
+export const statistics = [
+  {
+    number: 9845,
+    title: "Projects completed",
+  },
+  {
+    number: 840,
+    title: "Clients",
+  },
+  {
+    number: 320,
+    title: "Active clients",
+  },
+  {
+    number: 5410,
+    title: "cups of cofee",
+  },
+  {
+    number: 10,
+    title: "Projects in work",
   },
 ];
