@@ -1,29 +1,20 @@
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import Hero from "./sections/Hero/Hero";
+import About from "./sections/About/About";
+import Testimonials from "./sections/Testimonials/Testimonials";
+import Faq from "./sections/Faq/Faq";
+import Footer from "./sections/Footer/Footer";
+import ContactForm from "./sections/Form/Form";
 
 function App() {
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank" rel="noreferrer">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1 className="bg-red-500 py-2 text-3xl font-extrabold text-blue-500">
-        Vite + React
-      </h1>
-      <div>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div className="app flex flex-col">
+      <Hero />
+      <About />
+      <Testimonials />
+      <Faq />
+      <ContactForm />
+      <Footer />
+    </div>
   );
 }
 
