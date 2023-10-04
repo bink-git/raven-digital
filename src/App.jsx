@@ -6,6 +6,8 @@ import Footer from "./sections/Footer/Footer";
 import ContactForm from "./sections/Form/Form";
 import Statistic from "./components/Statistic";
 import Works from "./sections/Works/Works";
+import Team from "./sections/Team/Team";
+import Blog from "./sections/Blog/Blog";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <Works />
       <Statistic />
       <Testimonials />
+      <Team />
+      <Blog />
       <Faq />
       <ContactForm />
       <Footer />

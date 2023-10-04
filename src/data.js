@@ -139,3 +139,57 @@ export const statistics = [
     title: "Projects in work",
   },
 ];
+
+export const team = [
+  {
+    name: "John Doe",
+    position: "Project Manager",
+    img: "src/assets/images/team-1.jpg",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse ",
+  },
+  {
+    name: "Jane Doe",
+    position: "Company / CEO",
+    img: "src/assets/images/team-4.jpg",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse ",
+  },
+  {
+    name: "Mark Oven",
+    position: "Developer",
+    img: "src/assets/images/team-2.jpg",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse ",
+  },
+  {
+    name: "Brenda Johns",
+    position: "Designer",
+    img: "src/assets/images/team-3.jpg",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse ",
+  },
+];
+
+export const posts = [
+  {
+    label: "Techno",
+    date: "07/04/2023",
+    likes: 1502,
+    title: "Tik tok Banned in India",
+    img: "src/assets/images/blog-1.png",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse eget sodales egestas. Donec duis lacus, odio velit",
+  },
+  {
+    label: "Music",
+    date: "12/08/2021",
+    likes: 134,
+    title: "Lorem ipsum",
+    img: "src/assets/images/blog-2.png",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse eget sodales egestas. Donec duis lacus, odio velit",
+  },
+  {
+    label: "Art",
+    date: "09/12/2022",
+    likes: 1300,
+    title: "Lorem ipsum",
+    img: "src/assets/images/blog-3.png",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse eget sodales egestas. Donec duis lacus, odio velit",
+  },
+];
