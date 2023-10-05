@@ -17,7 +17,7 @@ const Team = () => {
             <img
               src={member.img}
               alt="photo"
-              className="group-hover:rotate-y-180 h-full w-full rounded-lg object-cover transition-all duration-500 ease-in-out group-hover:opacity-0"
+              className="group-hover:rotate-y-180 h-full w-full rounded-lg object-cover transition-all duration-1000 ease-in-out group-hover:opacity-0"
             />
             <div className="absolute left-0 top-0 -z-10 flex h-full w-full flex-col justify-between rounded-lg bg-secondary px-8 pb-[74px] pt-14 text-center">
               <div>

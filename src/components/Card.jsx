@@ -10,7 +10,7 @@ const Card = ({ icon, title, text }) => {
           Contact us
         </a>
       </div>
-      <div className="bg-primary top-50 absolute left-[60%] h-[548px] w-[548px] rounded-tl-[70px] group-hover:left-2 group-hover:top-[10%] group-hover:rounded-full group-hover:transition-[left] group-hover:duration-500 group-hover:ease-in-out"></div>
+      <div className="top-50 absolute left-[60%] h-[548px] w-[548px] rounded-tl-[70px] bg-primary hover:ease-in-out group-hover:left-2 group-hover:top-[10%] group-hover:rounded-full group-hover:transition-[left] group-hover:duration-500"></div>
       <img
         src={icon}
         width={48}

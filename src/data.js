@@ -39,51 +39,6 @@ export const advantages = [
   { id: 3, title: "Супер персонал" },
 ];
 
-export const faqs = [
-  {
-    id: 1,
-    qusestion: "Як я можу знайти цю платформу?",
-    answer:
-      "Таким чином, початок повсякденної роботи з формування позиції значною мірою зумовлює створення форм розвитку. Значимість цих проблем настільки очевидна, що консультація із широким активом відіграє важливу роль у формуванні форм розвитку.",
-  },
-  {
-    id: 2,
-    qusestion: "Чи сподобаються ці тести моєї дитині?",
-    answer:
-      "Таким чином, початок повсякденної роботи з формування позиції значною мірою зумовлює створення форм розвитку. Значимість цих проблем настільки очевидна, що консультація із широким активом відіграє важливу роль у формуванні форм розвитку.",
-  },
-  {
-    id: 3,
-    qusestion: "Як я можу с вами зв’язатися?",
-    answer:
-      "Таким чином, початок повсякденної роботи з формування позиції значною мірою зумовлює створення форм розвитку. Значимість цих проблем настільки очевидна, що консультація із широким активом відіграє важливу роль у формуванні форм розвитку.",
-  },
-  {
-    id: 4,
-    qusestion: "Чи сподобаються ці тести моєї дитині?",
-    answer:
-      "Таким чином, початок повсякденної роботи з формування позиції значною мірою зумовлює створення форм розвитку. Значимість цих проблем настільки очевидна, що консультація із широким активом відіграє важливу роль у формуванні форм розвитку.",
-  },
-  {
-    id: 5,
-    qusestion: "Чи сподобаються ці тести моєї дитині?",
-    answer:
-      "Таким чином, початок повсякденної роботи з формування позиції значною мірою зумовлює створення форм розвитку. Значимість цих проблем настільки очевидна, що консультація із широким активом відіграє важливу роль у формуванні форм розвитку.",
-  },
-  {
-    id: 6,
-    qusestion: "Як я можу с вами зв’язатися?",
-    answer:
-      "Таким чином, початок повсякденної роботи з формування позиції значною мірою зумовлює створення форм розвитку. Значимість цих проблем настільки очевидна, що консультація із широким активом відіграє важливу роль у формуванні форм розвитку.",
-  },
-  {
-    id: 7,
-    qusestion: "Як я можу знайти цю платформу?",
-    answer:
-      "Таким чином, початок повсякденної роботи з формування позиції значною мірою зумовлює створення форм розвитку. Значимість цих проблем настільки очевидна, що консультація із широким активом відіграє важливу роль у формуванні форм розвитку.",
-  },
-];
-
 export const cards = [
   {
     title: "APP DEVELOPMENT",
@@ -180,7 +135,7 @@ export const posts = [
     label: "Music",
     date: "12/08/2021",
     likes: 134,
-    title: "Lorem ipsum",
+    title: "Find Your Music",
     img: "src/assets/images/blog-2.png",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse eget sodales egestas. Donec duis lacus, odio velit",
   },
@@ -188,8 +143,41 @@ export const posts = [
     label: "Art",
     date: "09/12/2022",
     likes: 1300,
-    title: "Lorem ipsum",
+    title: "Graffiti in Your City",
     img: "src/assets/images/blog-3.png",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse eget sodales egestas. Donec duis lacus, odio velit",
+  },
+];
+
+export const faqs = [
+  {
+    id: 1,
+    title: "What services does your digital agency specialize in?",
+    descr:
+      "We specialize in digital marketing, including SEO optimization, pay-per-click advertising, social media management, and web development. We also offer brand strategy consulting.",
+  },
+  {
+    id: 2,
+    title: "What results can I expect from working with your agency?",
+    descr:
+      "We specialize in digital marketing, including SEO optimization, pay-per-click advertising, social media management, and web development. We also offer brand strategy consulting.",
+  },
+  {
+    id: 3,
+    title: "What is the typical project turnaround time?",
+    descr:
+      "We specialize in digital marketing, including SEO optimization, pay-per-click advertising, social media management, and web development. We also offer brand strategy consulting.",
+  },
+  {
+    id: 4,
+    title: "What are the pricing options for your agency's services?",
+    descr:
+      "We specialize in digital marketing, including SEO optimization, pay-per-click advertising, social media management, and web development. We also offer brand strategy consulting.",
+  },
+  {
+    id: 5,
+    title: "How can we initiate a partnership with your agency?",
+    descr:
+      "We specialize in digital marketing, including SEO optimization, pay-per-click advertising, social media management, and web development. We also offer brand strategy consulting.",
   },
 ];

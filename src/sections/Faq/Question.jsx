@@ -3,7 +3,7 @@ import React, { useState } from "react";
 // import xmark from "../../assets/xmark.svg";
 // import "animate.css";
 
-const Question = ({ qusestion, answer, id, toggle, activeId }) => {
+const Question = ({ title, descr, id, toggle, activeId }) => {
   const isActive = id === activeId;
 
   return (
@@ -19,14 +19,14 @@ const Question = ({ qusestion, answer, id, toggle, activeId }) => {
               : "text-md text-purple-dark font-bold"
           }
         >
-          {qusestion}
+          {title}
         </h4>
         {/* <img src={isActive ? xmark : plus} alt="icon" /> */}
       </header>
       {isActive && (
         <>
           <p className="animate__animated animate__fadeIn answer text-purple-dark p-4 text-justify text-base">
-            {answer}
+            {descr}
           </p>
           <div className="border-b-[3px] border-[#f2f2f2]"></div>
         </>
