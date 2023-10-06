@@ -1,6 +1,6 @@
 import React from "react";
-import Button from "../../components/Buttons/Button";
-import Title from "../../components/Text/Title";
+import Button from "../../components/Button";
+import Title from "../../components/Title";
 import { cards } from "../../data";
 import Card from "../../components/Card";
 

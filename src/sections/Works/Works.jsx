@@ -1,11 +1,11 @@
 import React from "react";
-import Title from "../../components/Text/Title";
+import Title from "../../components/Title";
 import img1 from "../../assets/images/img-1.jpg";
 import img2 from "../../assets/images/img-2.jpg";
 import img3 from "../../assets/images/img-3.jpg";
 import img4 from "../../assets/images/img-4.jpg";
 import img5 from "../../assets/images/img-5.jpg";
-import Button from "../../components/Buttons/Button";
+import Button from "../../components/Button";
 
 const Works = () => {
   return (

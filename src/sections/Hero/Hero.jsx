@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../../components//Buttons/Button";
+import Button from "../../components/Button";
 import heroImg from "../../assets/hero-img.png";
 import Header from "./Header";
 

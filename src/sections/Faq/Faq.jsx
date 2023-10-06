@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { faqs } from "../../data.js";
-import Subtitle from "../../components/Text/Subtitle.jsx";
-import Title from "../../components/Text/Title.jsx";
+import Title from "../../components/Title.jsx";
 
 import Question from "./Question.jsx";
 
@@ -14,13 +13,9 @@ const Faq = () => {
   };
 
   return (
-    <section
-      className="faq container-2xl relative mx-auto w-full max-w-[800px] px-4 pb-8 2xl:py-24"
-      id="faq"
-    >
-      <Subtitle>Питання та відповіді</Subtitle>
-      <Title>Наші відповіді на частіщі запитання</Title>
-      <div className="border-t-[3px] border-[#f2f2f2]">
+    <section className="faq container mx-auto mb-[210px] w-full" id="faq">
+      <Title className="text-left">FAQ</Title>
+      <div>
         {faqs.map((faq) => {
           return (
             <Question
@@ -35,19 +30,5 @@ const Faq = () => {
     </section>
   );
 };
-
-// const Wrapper = styled.section`
-//
-
-//   p {
-//     text-align: center;
-//     margin-bottom: 22px;
-//   }
-
-//   h2 {
-//     text-align: center;
-//     margin-bottom: 60px;
-//   }
-// `;
 
 export default Faq;

@@ -1,4 +1,4 @@
-import Title from "../../components/Text/Title";
+import Title from "../../components/Title";
 import facebook from "../../assets/facebook.svg";
 import twitter from "../../assets/twitter.svg";
 import instagram from "../../assets/instagram.svg";
@@ -12,7 +12,7 @@ const Team = () => {
         {team.map((member) => (
           <div
             key={member.name}
-            className="group relative col-span-3 cursor-pointer"
+            className="group relative col-span-3 w-[340px] cursor-pointer"
           >
             <img
               src={member.img}

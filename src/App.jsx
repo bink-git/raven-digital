@@ -3,11 +3,12 @@ import About from "./sections/About/About";
 import Testimonials from "./sections/Testimonials/Testimonials";
 import Faq from "./sections/Faq/Faq";
 import Footer from "./sections/Footer/Footer";
-import ContactForm from "./sections/Form/Form";
+import Contacts from "./sections/Contacts/Contacts";
 import Statistic from "./components/Statistic";
 import Works from "./sections/Works/Works";
 import Team from "./sections/Team/Team";
 import Blog from "./sections/Blog/Blog";
+import Clients from "./components/Clients";
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
       <Team />
       <Blog />
       <Faq />
-      <ContactForm />
+      <Clients />
+      <Contacts />
       <Footer />
     </div>
   );

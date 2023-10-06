@@ -1,13 +1,13 @@
 import React from "react";
-import Title from "../../components/Text/Title";
+import Title from "../../components/Title";
 import { posts } from "../../data";
 import heart from "../../assets/heart.svg";
 
 const Blog = () => {
   return (
-    <div className="about container-2xl mx-auto w-full max-w-screen-2xl ">
+    <div className="blog container-2xl mx-auto w-full max-w-screen-2xl">
       <Title>Blog</Title>
-      <div className="mb-[150px] grid grid-cols-12 gap-6">
+      <div className="mb-[210px] grid grid-cols-12 gap-6">
         {posts.map((post) => (
           <div
             key={post.date}

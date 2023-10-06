@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-// import plus from "../../assets/plus.svg";
-// import xmark from "../../assets/xmark.svg";
+import arrowDown from "../../assets/arrow-down.svg";
+import arrowUp from "../../assets/arrow-up.svg";
+
 // import "animate.css";
 
 const Question = ({ title, descr, id, toggle, activeId }) => {
@@ -10,26 +11,21 @@ const Question = ({ title, descr, id, toggle, activeId }) => {
     <>
       <header
         onClick={() => toggle(id)}
-        className="flex cursor-pointer justify-between gap-4 border-b-[3px] border-[#f2f2f2] py-4"
+        className={`flex cursor-pointer items-center justify-between rounded-[4px] bg-[#11161C] px-10 py-6 ${
+          isActive ? "border-l-2 border-r-2 border-t-2 border-primary" : ""
+        }`}
       >
-        <h4
-          className={
-            isActive
-              ? "text-md text-orange font-bold"
-              : "text-md text-purple-dark font-bold"
-          }
-        >
-          {title}
-        </h4>
-        {/* <img src={isActive ? xmark : plus} alt="icon" /> */}
+        <h4 className={`text-2xl font-extrabold uppercase `}>{title}</h4>
+        <img
+          src={isActive ? arrowUp : arrowDown}
+          alt="icon"
+          className="h-5 w-5"
+        />
       </header>
       {isActive && (
-        <>
-          <p className="animate__animated animate__fadeIn answer text-purple-dark p-4 text-justify text-base">
-            {descr}
-          </p>
-          <div className="border-b-[3px] border-[#f2f2f2]"></div>
-        </>
+        <p className="answer border-b-2 border-l-2 border-r-2 border-primary bg-[#1B2837] px-10 py-6 text-base">
+          {descr}
+        </p>
       )}
     </>
   );

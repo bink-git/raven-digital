@@ -1,6 +1,5 @@
 import React from "react";
 import logo from "../../assets/logo.svg";
-import ButtonPrimary from "../../components/Buttons/Button";
 import { links } from "../../data.js";
 
 const Header = () => {
