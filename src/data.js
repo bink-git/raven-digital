@@ -1,3 +1,11 @@
+import blog1 from "./assets/images/blog-1.png";
+import blog2 from "./assets/images/blog-2.png";
+import blog3 from "./assets/images/blog-3.png";
+import team1 from "./assets/images/team-1.jpg";
+import team2 from "./assets/images/team-2.jpg";
+import team3 from "./assets/images/team-3.jpg";
+import team4 from "./assets/images/team-4.jpg";
+
 export const links = [
   {
     text: "Home",
@@ -99,25 +107,25 @@ export const team = [
   {
     name: "John Doe",
     position: "Project Manager",
-    img: "src/assets/images/team-1.jpg",
+    img: team1,
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse ",
   },
   {
     name: "Jane Doe",
     position: "Company / CEO",
-    img: "src/assets/images/team-4.jpg",
+    img: team4,
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse ",
   },
   {
     name: "Mark Oven",
     position: "Developer",
-    img: "src/assets/images/team-2.jpg",
+    img: team2,
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse ",
   },
   {
     name: "Brenda Johns",
     position: "Designer",
-    img: "src/assets/images/team-3.jpg",
+    img: team3,
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse ",
   },
 ];
@@ -128,7 +136,7 @@ export const posts = [
     date: "07/04/2023",
     likes: 1502,
     title: "Tik tok Banned in India",
-    img: "src/assets/images/blog-1.png",
+    img: blog1,
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse eget sodales egestas. Donec duis lacus, odio velit",
   },
   {
@@ -136,7 +144,7 @@ export const posts = [
     date: "12/08/2021",
     likes: 134,
     title: "Find Your Music",
-    img: "src/assets/images/blog-2.png",
+    img: blog2,
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse eget sodales egestas. Donec duis lacus, odio velit",
   },
   {
@@ -144,7 +152,7 @@ export const posts = [
     date: "09/12/2022",
     likes: 1300,
     title: "Graffiti in Your City",
-    img: "src/assets/images/blog-3.png",
+    img: blog3,
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse eget sodales egestas. Donec duis lacus, odio velit",
   },
 ];
