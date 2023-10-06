@@ -7,7 +7,7 @@ import amazon from "../assets/amazon.svg";
 
 const Clients = () => {
   return (
-    <div className="clients container-2xl mx-auto mb-[210px] w-full max-w-screen-2xl">
+    <div className="clients container-2xl mx-auto w-full max-w-screen-2xl py-16">
       <Title className="mb-6 text-left">Clients</Title>
       <div className="flex items-center justify-between">
         <img src={mango} alt="mango" />

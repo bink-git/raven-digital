@@ -2,13 +2,14 @@ import React from "react";
 import Button from "../../components/Button";
 import heroImg from "../../assets/hero-img.png";
 import Header from "./Header";
+import "animate.css";
 
 const Hero = () => {
   return (
     <section className="hero bg-hero-bg h-full">
       <Header />
       <div className="info mx-auto grid w-full grid-cols-12 gap-x-[88px] pb-44 pt-36">
-        <div className="col-span-6  pl-[238px] pt-12">
+        <div className="animate__animated animate__slow animate__fadeInLeft col-span-6  pl-[238px] pt-12">
           <h1 className="mb-7 text-[85px] font-bold leading-tight">
             WE ARE <br /> DIGITAL AGENCY
           </h1>
@@ -22,7 +23,7 @@ const Hero = () => {
           <Button>Learn More</Button>
         </div>
 
-        <div className="main-img col-span-6 h-full w-full">
+        <div className="main-img animate__animated animate__slow animate__fadeInRight col-span-6 h-full w-full">
           <img src={heroImg} className="w-full" alt="main img" />
         </div>
       </div>

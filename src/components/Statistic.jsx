@@ -6,7 +6,7 @@ const Statistic = () => {
   const [counterOn, setCounterOn] = useState(false);
 
   return (
-    <div className="mb-32 bg-secondary ">
+    <div className="bg-secondary">
       <div className="container-2xl container mx-auto flex justify-between gap-10 px-16 py-24">
         {statistics.map((statistic) => (
           <div
